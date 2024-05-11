@@ -1,4 +1,4 @@
-public class A implements I, E {
+public class A extends null implements I, E {
 
     private int h = 1;
 
@@ -28,6 +28,14 @@ public class A implements I, E {
         return 39;
     }
 
+    public byte oo() {
+        return 1;
+    }
+
+    public int af() {
+        return -1;
+    }
+
     public Object rr() {
         return null;
     }
@@ -44,11 +52,15 @@ public class A implements I, E {
         return new int[]{4, 3, 2, 1};
     }
 
-    public byte oo() {
-        return 1;
+    public void aa() {
+        return;
     }
 
-    public int af() {
-        return -1;
+    public double ad() {
+        return 11;
+    }
+
+    public long ac() {
+        return 333;
     }
 }

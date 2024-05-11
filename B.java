@@ -1,4 +1,4 @@
-public class B {
+public class B extends null {
 
     private long c = 1234;
 
@@ -13,7 +13,11 @@ public class B {
     }
 
     public long dd() {
-        return 33;
+        return 99999;
+    }
+
+    public double ad() {
+        return 12.12;
     }
 
     public Object rr() {
@@ -32,7 +36,15 @@ public class B {
         return 13;
     }
 
-    public double ad() {
-        return 11;
+    public int[] ii() {
+        return new int[]{4, 3, 2, 1};
+    }
+
+    public byte oo() {
+        return 4;
+    }
+
+    public java.util.Set<Integer> ll() {
+        return new java.util.HashSet<Integer>;
     }
 }
